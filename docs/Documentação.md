@@ -1,4 +1,5 @@
- # Introdução
+# Introdução
+
 No mundo atual, a transição da academia para o mercado de trabalho é um momento crucial e desafiador para muitos estudantes universitários. Enquanto buscam aplicar seus conhecimentos teóricos em ambientes práticos, muitas vezes enfrentam barreiras significativas ao tentar encontrar oportunidades de estágio que correspondam às suas aspirações e habilidades.
 
 É nesse contexto dinâmico e exigente que surge a nossa plataforma de estágios. Com uma visão centrada no estudante e na empresa, estamos comprometidos em redefinir e simplificar o processo de busca e seleção de estágios, oferecendo uma solução acessível para ambas as partes envolvidas.
