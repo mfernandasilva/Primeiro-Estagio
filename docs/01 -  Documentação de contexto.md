@@ -41,11 +41,14 @@ Com uma interface amigável e ferramentas de busca intuitivas, "Primeiro Estági
 **1. Estudantes de Nível Superior e Técnico:**
 
 **- Estudantes Universitários:** Alunos de cursos de graduação que estão em busca de oportunidades para aplicar seus conhecimentos teóricos em um ambiente de trabalho prático.
+
 **- Estudantes de Cursos Técnicos:** Alunos de cursos técnicos que procuram estágios para ganhar experiência prática em suas áreas de estudo.
 
 **2. Empresas:**
 
 **- Grandes Empresas:** Companhias que frequentemente contratam estagiários para programas estruturados de estágio.
+
 **- Pequenas e Médias Empresas:** Negócios menores que buscam estagiários para apoiar diferentes áreas e projetos.
+
 **- Startups:** Empresas em fase inicial que procuram jovens talentos para contribuir com inovação e crescimento.
 
