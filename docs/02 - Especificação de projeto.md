@@ -62,4 +62,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|
+| RF-001 (Cadastro de Usuários) | A aplicação deve permitir que novos usuários se cadastrem na plataforma, distinguindo entre dois tipos principais de usuários: empresas e estagiários. Durante o processo de cadastro, os usuários serão solicitados a fornecer informações básicas, como nome completo, endereço de e-mail e senha. Além disso, será necessário que escolham o tipo de perfil a ser criado, seja como empresa que oferece estágios ou como estagiário em busca de oportunidades. | ALTA | 
+| RF-002 (Login e Recuperação de Senha) | A aplicação deve permitir usuários registrados na plataforma devem poder fazer login de maneira segura utilizando seu endereço de e-mail e senha cadastrados. Caso esqueçam a senha, deverá ser oferecida a opção de recuperação por e-mail. | ALTA | 
+| RF-003 ( Personalização de Perfil) | A aplicação deve permitir que cada usuário, seja empresa ou estagiário, tenha a capacidade de personalizar seu perfil na plataforma. Isso inclui a possibilidade de adicionar uma foto de perfil, informações de contato atualizadas, descrição da empresa (para empresas) ou histórico educacional e experiências relevantes (para estagiários). | ALTA | 
+| RF-004 (Preenchimento de Currículo Online) | A aplicação deve permitir que os usuários estagiários(a) tenham a facilidade de preencher seus currículos diretamente na plataforma. O formulário de currículo incluirá campos estruturados para inserção de informações como formação acadêmica, experiências profissionais anteriores (se houver), habilidades técnicas e idiomas dominados. | ALTA | 
+| RF-005 ( Gerenciamento de Vagas por Empresas:) | A aplicação deve permitir que os usuários empresas cadastradas poderão criar, editar e excluir vagas de estágio na plataforma. Durante a criação de uma vaga, as empresas poderão inserir detalhes como título da vaga, descrição detalhada das responsabilidades, requisitos específicos (como habilidades técnicas desejadas e qualificações necessárias), benefícios oferecidos, salário (se aplicável) e localização da vaga. | ALTA | 
+| RF-006 (Candidatura a Vagas de Estágio) | A aplicação deve permitir que os usuários estagiários poderão se candidatar a vagas de estágio diretamente pela plataforma. Cada vaga de estágio listada incluirá um botão de candidatura visível, permitindo aos estagiários enviar seu currículo. | ALTA | 
+| RF-007 (Acompanhamento de Candidaturas) | A aplicação deve permitir que os usuários Empresas tenham a capacidade de acompanhar o status das candidaturas recebidas para suas vagas de estágio. Um painel administrativo fornecerá um resumo das candidaturas recebidas para cada vaga, incluindo informações detalhadas sobre cada candidato, status da candidatura (pendente, em análise, selecionado, etc.) e ações a serem tomadas (como agendar entrevistas ou fornecer feedback). | ALTA | 
+| RF-008 (Notificações de Status:) | A aplicação deve permitir que sejam enviadas notificações automáticas para estagiários e empresas sobre o status das candidaturas. Isso inclui confirmações de recebimento de candidatura, atualizações sobre o progresso da seleção (como convites para entrevistas) e feedbacks finais sobre a candidatura. As notificações serão enviadas via e-mail e/ou dentro da própria plataforma, garantindo que os usuários estejam sempre informados e atualizados sobre suas atividades na plataforma. | ALTA | 
+
+## Requisitos não Funcionais
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RNF-001| O sistema deve ser responsivo, de modo a ser adequadamente exibido em dispositivos móveis | MÉDIA |
+|RNF-002| O sistema deve ser implementado na linguagem de programação JavaScript. | ALTA |
+|RNF-003| O sistema deve manter o tempo máximo de resposta para qualquer interação do usuário na aplicação abaixo de 15 segundos | MÉDIA |
+|RNF-004| O sistema deve ser capaz de suportar até 250 usuários navegando simultaneamente, mantendo um tempo de resposta satisfatório e sem degradação significativa de desempenho | MÉDIA |
+|RNF-005| O sistema deve garantir a segurança dos dados dos usuários, protegendo as informações pessoais e confidenciais armazenadas na aplicação | ALTA |
+
+# Restrições
+
+O projeto está restrito pelos itens apresentados na tabela a seguir.
+
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
+
+
+# Diagrama de Casos de Uso
+
