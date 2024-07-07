@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #0077B5; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff; 
+    font-size: 1.2rem;
+}
+.navbar-logo {
+    font-weight: bold;
+}
+.navbar-login {
+    margin-left: auto;
+}
+.login-button {
+    background-color: transparent;
+    color: #fff; 
+    border: 1px solid #fff; 
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: #fff; 
+    color: #0077B5; 
+}

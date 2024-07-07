@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+}
+.login-container {
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+.form-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #003d7a;
+    padding: 2rem;
+}
+.form-image img {
+    max-width: 100%;
+    height: auto;
+}
+.form-login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.form-login h1 {
+    margin-bottom: 20px;
+    color: #003d7a;
+}
+.form-login form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.form-login label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+.form-login input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-login .btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#entrar-btn,
+#voltar-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 48%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#entrar-btn {
+    background-color: #65D73D;
+}
+#voltar-btn {
+    background-color: #0066CC;
+}
+#redefinir-senha, #cadastre-se-link {
+    text-decoration: none;
+    color: #0066CC;
+    margin-top: 10px;
+}
+#redefinir-senha:hover, #cadastre-se-link:hover {
+    text-decoration: underline;
+}
+.text-danger {
+    color: #ff0000;
+}
